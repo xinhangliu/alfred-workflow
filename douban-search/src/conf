@@ -1,0 +1,18 @@
+[base]
+## 设置搜索选项及其排列顺序。用空格分隔，支持以下选项：
+# douban - 直接前往豆瓣进行搜索
+# settings - 打开此配置文件
+# movie/book/music/user - 在 Alfred 中搜索各项，即搜即得
+selections = douban movie book music user settings
+
+## 设置最大条目获取数目。此项仅决定向豆瓣 API 请求的条目数量，请设置大于 0 的数。默认为 20
+max_items = 20
+
+## 是否允许 Alfred 对条目进行自动排序
+auto_sort = False
+
+## 设置快速搜索选项。Alfred 中输入关键字 quick 即可直接对该选项进行动态搜索
+quick_search = movie
+
+# 设置豆瓣 apikey
+apikey = None
